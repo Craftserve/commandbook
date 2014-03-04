@@ -358,10 +358,6 @@ public class FunComponent extends BukkitComponent {
 
                         // Keep track of this
                         included = true;
-                    } else {
-                        player.sendMessage(ChatColor.YELLOW + "You've been slapped by "
-                                + PlayerUtil.toColoredName(sender, ChatColor.YELLOW) + ".");
-
                     }
                 } else {
                     if (count < 6) {
